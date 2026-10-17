@@ -1,4 +1,4 @@
-"""Public Streamlit frontend for post-heating FRP-repaired concrete ML models."""
+"""Streamlit frontend for post-heating FRP-repaired concrete ML models."""
 from io import BytesIO
 from pathlib import Path
 import numpy as np
@@ -25,7 +25,7 @@ NUMERIC_RANGES={
 # CRITICAL: This retains the input sequence in the supplied working PySimpleGUI script.
 FEATURE_COLUMNS=list(NUMERIC_RANGES)+['Cycle','Cooling']
 CYCLE={'1: No':1,'2: Yes':2}
-COOLING={'0: Ambient':0,'1: Air':1,'2: Water':2,'3: Furnace':3}
+COOLING={'1: Air':1,'2: Water':2,'3: Furnace':3}
 FAILURE_NAMES={1:'Rupture',2:'Debonding',3:'Mixed'}
 LABELS={
     'd':'d (mm)','h':'h (mm)','fco':'fco (MPa)','fco,T':'fco,T (MPa)',
@@ -186,5 +186,6 @@ else:
     st.caption('Repeated predictions are collected here for Excel export. Batch records are held only in this browser session.')
 
 st.divider()
-st.caption('© 2026 I. A. Tijani, M. Elshorbagi, & C. Jiang. All rights reserved.')
+st.caption('© 2026 I.A. Tijani, M. Elshorbagi, & C. Jiang. All rights reserved.')
+st.caption('Data-Augmented Machine Learning Framework for Failure Modes Classification and Ultimate Strength Prediction of FRP-Repaired Post-Heated Concrete (under review).')
 st.caption('Applicability is limited to the training-data domain; combinations within individual input ranges may still lie outside the multivariate training domain.')

@@ -33,8 +33,6 @@ The initial requirements use broad compatible version ranges, not guarantees of 
 - Free hosting may sleep and imposes memory/resource limits. Test deployment size and performance.
 - Session data is transient; downloading Excel retains a local copy.
 
-## Planned website integration
 
-Add a link from your research website's Tools/Software page to the Streamlit URL. Later, you can embed the app using an iframe if the hosting platform and security headers permit it.
 
 © 2026 I. A. Tijani, M. Elshorbagi, & C. Jiang. All rights reserved.

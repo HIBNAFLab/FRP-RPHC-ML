@@ -106,7 +106,7 @@ st.markdown('''<style>
 [data-testid="stMetricValue"]{font-size:1.55rem}
 </style>''',unsafe_allow_html=True)
 st.title('🏗️ ML-Aided Prediction of Post-Heated FRP-Repaired Concrete')
-st.caption('Ultimate compressive strength and failure-mode prediction | Research application')
+st.caption('Ultimate compressive strength and failure mode prediction | Research application')
 st.info('Research-use tool. Predictions are data-driven estimates, not substitutes for experimental verification or engineering design checks.')
 
 if 'history' not in st.session_state:

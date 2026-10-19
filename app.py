@@ -188,4 +188,4 @@ else:
 st.divider()
 st.caption('© 2026 I.A. Tijani, M. Elshorbagi, & C. Jiang. All rights reserved.')
 st.caption('Data-Augmented Machine Learning Framework for Failure Modes Classification and Ultimate Strength Prediction of FRP-Repaired Post-Heated Concrete (under review).')
-st.caption('Applicability is limited to the training-data domain; combinations within individual input ranges may still lie outside the multivariate training domain.')
+st.caption('Model applicability is limited to the multivariate training domain, even when individual inputs fall within their respective ranges. For ambient conditions (20°C), the heating rate and soaking time must both be set to zero, consistent with the training data.')
